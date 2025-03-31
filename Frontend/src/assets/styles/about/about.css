@@ -1,0 +1,12 @@
+.about-img {
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .about-page h2{
+        padding-top: 20px;
+    }
+}

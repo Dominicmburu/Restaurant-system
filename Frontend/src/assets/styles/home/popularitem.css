@@ -1,0 +1,30 @@
+.nav-pills .nav-link {
+    color: #000;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #ffc107;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.rounded-pill {
+    border-radius: 50rem;
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+    width: 100%; 
+    border-radius: 5px;
+}

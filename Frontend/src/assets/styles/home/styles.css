@@ -1,0 +1,196 @@
+.hero{
+    background-color: #1b1b1b;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.hero .desc{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.category-card{
+    background-color: #e4e4e4;
+    border-bottom: #dac50d 2px solid;
+}
+
+.category-card .category-icon i{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.nav-pills .nav-link {
+    color: #000;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .nav-link:hover {
+    background-color: transparent;
+    color: #ffc400;
+    border-bottom: 2px solid #ffc107;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.rounded-pill {
+    border-radius: 50rem;
+}
+
+#goTopBtn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.couple{
+    background-color: #1b1b1b;
+    /* padding: 60px 0; */
+}
+
+.couple .enjoy{
+    color: #ffffff;
+}
+
+.couple .res-s{
+    color: #a19e9e;
+}
+
+.couple .find{
+    color: #e0dcdc;
+}
+
+#at-home-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.couple-img {
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.couple .couple-desc{
+    margin: 0;
+    padding: 40px;
+}
+
+.newsletter {
+    background-color: #ffc107; 
+    padding: 40px 0;
+}
+
+.newsletter h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1b1b1b;
+}
+
+.newsletter p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.newsletter .input-group {
+    max-width: 100%;
+    display: flex;
+}
+
+.newsletter input {
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.newsletter .btn-dark {
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .couple .couple-desc {
+        text-align: center; 
+        padding: 20px;
+    }
+
+    .couple-img {
+        max-height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .couple .find {
+        text-align: center;
+    }
+
+    .couple .find h5{
+        font-size: 15px;
+    }
+
+    .couple .find p{
+        font-size: 12px;
+    }
+
+    .couple .feature-icon {
+        margin: auto;
+    }
+
+    .best-pizza .row {
+        flex-direction: column-reverse; 
+        text-align: center;
+    }
+
+    .best-pizza h2 {
+        font-size: 2rem;
+    }
+
+    .best-pizza p {
+        font-size: 1rem;
+    }
+
+    .best-pizza .btn-dark {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .best-pizza img {
+        max-width: 90%; 
+    }
+
+    .newsletter .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter .d-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .newsletter .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter .sub-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter .btn-dark {
+        width: 100%;
+    }
+}
